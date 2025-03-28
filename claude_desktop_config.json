@@ -1,0 +1,31 @@
+{
+    "mcpServers":{
+        "text-memory":{
+            "command": "npx",
+            "args":[
+                "-y",
+                "text-memory"
+            ]
+        },
+        "find-files": {
+          "command": "npx",
+          "args":[
+            "-y",
+            "find-files-mcp",
+            "/Users/rlatl/Downloads",
+            "/Users/rlatl/Desktop",
+            "/Users/rlatl/Documents"
+          ]
+        },
+        "github": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-github"
+          ],
+          "env": {
+          "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_TOKEN_HERE"
+      }
+    }
+  }  
+}
